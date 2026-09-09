@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+
+.roxo{
+    display: flex;
+    background-color: purple;
+    width: 100%;
+    height: 25vh;
+    flex-direction: center;
+    align-items: end;
+    align-content: left;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.bolaroxa{
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.verde{
+    display: flex;
+    background-color: green;
+    width: 100%;
+    height: 25vh;
+    flex-direction: center;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    gap: 5px;
+}
+
+.bolaverde{
+    background-color: azure;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.marrom{
+    display: flex;
+    background-color: burlywood;
+    width: 100%;
+    height: 25vh;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 5px;
+}
+
+.bolamarrom{
+    background-color: beige;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.amarelo{
+    display: flex;
+    background-color: yellow;
+    width: 100%;
+    height: 25vh;
+    flex-direction: center;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+
+.bolaamarela{
+    background-color: cyan;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.azul{
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    height: 25vh;
+    flex-direction: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+
+}
+
+.bolaazul{
+    background-color: greenyellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
